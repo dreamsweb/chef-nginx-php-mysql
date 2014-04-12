@@ -23,6 +23,13 @@
   "nginx":{
     "run_user": "apps"
   },
+  "php-fpm":{
+    "user": "www-data",
+    "group": "www-data",
+    "pools": [
+      {"name": "www"}
+    ]
+  },
   "run_list": [
     "role[server]",
     "role[nginx]"

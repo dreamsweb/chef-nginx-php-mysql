@@ -24,6 +24,9 @@ DEPENDENCIES
     git: git@github.com:TalkingQuickly/memcached-tlq.git
     revision: 8ac6e2c68c32f79efcc4c19c7099b7db72ab158d
   openssl
+  php-fpm
+    git: git@github.com:dreamsweb/chef-php-fpm.git
+    revision: deed15b46db3074466017f9395e9463350deabb6
   sudo
     git: https://github.com/opscode-cookbooks/sudo.git
     revision: d2902b4d6ea6fe2cf175d1921f0cb96b84e089bd
@@ -43,5 +46,7 @@ GRAPH
   look-and-feel-tlq (0.0.1)
   memcached-tlq (0.0.2)
   openssl (1.1.0)
+  php-fpm (0.0.2)
+    apt (>= 0.0.0)
   sudo (2.5.3)
   users (1.7.1)

@@ -1,0 +1,11 @@
+{
+   "name": "php-server",
+   "description": "PHP FPM server",
+   "default_attributes": {
+   },
+   "json_class": "Chef::Role",
+   "run_list": [ "php-fpm" ],
+   "chef_type": "role",
+   "override_attributes": {
+   }
+}
