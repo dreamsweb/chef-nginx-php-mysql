@@ -1,0 +1,30 @@
+{
+  "authorization": {
+    "sudo": {
+      "users": ["apps", "vagrant"]
+    }
+  },
+  "localegen": {
+    "lang": [
+      "en_US.UTF-8",
+      "ru_RU.UTF-8",
+      "en_US.UTF-8 UTF-8",
+      "ru_RU.UTF-8 UTF-8"
+    ]
+  },
+  "newrelic": {
+    "license_key": "your_newrelic_key",
+    "hostname": "vmlocal"
+  },
+  "firewall_allow":[
+    {"port": "2222", "ip": "any"},
+    {"port": "8080", "ip": "any"}
+  ],
+  "nginx":{
+    "run_user": "apps"
+  },
+  "run_list": [
+    "role[server]",
+    "role[nginx]"
+  ]
+}
