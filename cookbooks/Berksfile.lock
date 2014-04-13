@@ -23,6 +23,9 @@ DEPENDENCIES
   memcached-tlq
     git: git@github.com:TalkingQuickly/memcached-tlq.git
     revision: 8ac6e2c68c32f79efcc4c19c7099b7db72ab158d
+  mysql
+    git: git@github.com:opscode-cookbooks/mysql.git
+    revision: a2ff53f0ca6deca75aebf6da55ac381194ec7728
   openssl
   php-fpm
     git: git@github.com:dreamsweb/chef-php-fpm.git
@@ -45,6 +48,7 @@ GRAPH
   locale-gen (0.0.1)
   look-and-feel-tlq (0.0.1)
   memcached-tlq (0.0.2)
+  mysql (5.1.9)
   openssl (1.1.0)
   php-fpm (0.0.2)
     apt (>= 0.0.0)

@@ -13,5 +13,6 @@ cookbook 'memcached-tlq', git: 'git@github.com:TalkingQuickly/memcached-tlq.git'
 
 cookbook 'chef-nginx', git: 'git@github.com:dreamsweb/chef-nginx.git'
 cookbook 'php-fpm', git: 'git@github.com:dreamsweb/chef-php-fpm.git'
+cookbook 'mysql', git: 'git@github.com:opscode-cookbooks/mysql.git'
 
 cookbook 'openssl'
