@@ -17,9 +17,6 @@ DEPENDENCIES
   locale-gen
     git: git@github.com:danhart/locale-gen.git
     revision: 1eb11640f9733f39c7cf1ec86b778eb1f8748463
-  look-and-feel-tlq
-    git: git@github.com:TalkingQuickly/look_and_feel-tlq.git
-    revision: bf3b58e4233af1455a615f66a61cd104d43415b6
   memcached-tlq
     git: git@github.com:TalkingQuickly/memcached-tlq.git
     revision: 8ac6e2c68c32f79efcc4c19c7099b7db72ab158d
@@ -30,6 +27,9 @@ DEPENDENCIES
   php-fpm
     git: git@github.com:dreamsweb/chef-php-fpm.git
     revision: deed15b46db3074466017f9395e9463350deabb6
+  server-prerequisites
+    git: git@github.com:dreamsweb/server-prerequisites.git
+    revision: b4ade4ac8b78b1e1518e276efcaf058708f00e48
   sudo
     git: https://github.com/opscode-cookbooks/sudo.git
     revision: d2902b4d6ea6fe2cf175d1921f0cb96b84e089bd
@@ -46,11 +46,11 @@ GRAPH
   chef-nginx (0.0.4)
   chef-solo-search (0.5.1)
   locale-gen (0.0.1)
-  look-and-feel-tlq (0.0.1)
   memcached-tlq (0.0.2)
   mysql (5.1.9)
   openssl (1.1.0)
   php-fpm (0.0.2)
     apt (>= 0.0.0)
+  server-prerequisites (0.0.3)
   sudo (2.5.3)
   users (1.7.1)
